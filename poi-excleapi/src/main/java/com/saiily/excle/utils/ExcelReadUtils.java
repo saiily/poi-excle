@@ -72,7 +72,6 @@ public class ExcelReadUtils {
 	 * @param inputStream
 	 * @param sheetProcessors
 	 */
-	@SuppressWarnings("restriction")
 	public static void readReport(InputStream inputStream, ReadProcessor<?>... sheetProcessors) {
 		// 使用线程池进行线程管理。
 		ExecutorService es = Executors.newCachedThreadPool();
